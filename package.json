@@ -1,12 +1,8 @@
 {
-  "name": "test",
+  "name": "{{ projectName }}",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "weapp build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": []
 }
