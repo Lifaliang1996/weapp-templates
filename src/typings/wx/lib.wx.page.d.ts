@@ -87,7 +87,7 @@ declare namespace WechatMiniprogram {
             onShareAppMessage(
                 /** 分享发起来源参数 */
                 options: IShareAppMessageOption,
-            ): ICustomShareContent
+            )
             /** 页面滚动触发事件的处理函数
              *
              * 监听用户滑动页面事件。

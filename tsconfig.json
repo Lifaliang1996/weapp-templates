@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "strictNullChecks": true,
-    "noImplicitAny": false
+    "strictNullChecks": false,
+    "noImplicitAny": false,
     "module": "es6",
     "target": "es2015",
     "allowJs": false,
@@ -19,6 +19,11 @@
     "pretty": true,
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "skipLibCheck": true,
-    "typeRoots": ["./src/typings"]
-  }
+    "typeRoots": ["./src/typings"],
+    "baseUrl": "./src"
+  },
+  "include": ["src/**/*.ts", "src/app.js"],
+  "exclude": [
+    "node_modules"
+  ]
 }
