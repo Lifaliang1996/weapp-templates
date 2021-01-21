@@ -20,7 +20,15 @@
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "skipLibCheck": true,
     "typeRoots": ["./src/typings"],
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "~/*": [
+        "src/*"
+      ]
+    }
   },
   "include": ["src/**/*.ts", "src/app.js"],
   "exclude": [
